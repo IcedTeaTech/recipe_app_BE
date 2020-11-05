@@ -20,7 +20,7 @@ app.post("/recipes", async (req, res) => {
   console.log(req.body);
   const response = await axios
     .get(
-      `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${API_KEY}`
+      `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${API_KEY}&from=0&to=12`
     )
     .then((response) => {
       res.send(response.data);

@@ -1,0 +1,15 @@
+{
+  "name": "react_recipe_be",
+  "version": "1.0.0",
+  "description": "Backend for the react recipe app",
+  "main": "index.js",
+  "author": "Jesse Kroon",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

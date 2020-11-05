@@ -30,6 +30,6 @@ app.post("/recipes", async (req, res) => {
     });
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log("Server listening on port 4000");
 });
